@@ -1,1 +1,21 @@
 Sample Code - 
+
+Day 1 
+
+Problem 1
+Problem Statement - 
+You are given an array of integers.
+Your task is to find and return the smallest element present in the array.
+Solution - 
+int findSmallest(int[] arr){
+int min = arr[];
+for (int i=1; i<arr.length; i++){
+     if(arr[i]<min){
+        min = arr[i];
+    }
+  }
+return min;
+}
+
+* Final Time Complexity - O(n)
+* Final Space Complexity - O(1) (constant space)
