@@ -233,3 +233,63 @@ Final Time Complexity - O(n)
 Final Space Complexity - O(1) (constant space)
 
 
+
+
+Problem 7
+Problem Statement -
+Given an array, find the largest value
+Solution -
+
+public class LargestElement {
+
+    public static int findLargest(int[] arr) {
+
+        int largest = arr[0];
+
+        for (int i = 1; i < arr.length; i++) {
+
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
+        }
+
+        return largest;
+    }
+}
+
+
+Final Time Complexity - O(n)
+Final Space Complexity - O(1) (constant space)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
