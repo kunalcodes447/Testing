@@ -299,7 +299,6 @@ Problem Statement -
 Given an array, count how many numbers are:
 Even
 Odd
-
 Solution -
 
 public class CountEvenOdd {
@@ -331,6 +330,29 @@ Final Space Complexity - O(1) (constant space)
 
 
 
+
+Problem 10
+Problem Statement -
+Given an array, compute the total sum of its elements
+Solution -
+
+public class SumArray {
+
+    public static int sum(int[] arr) {
+
+        int total = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            total = total + arr[i];
+        }
+
+        return total;
+    }
+}
+
+
+Final Time Complexity - O(n)
+Final Space Complexity - O(1) (constant space)
 
 
 
