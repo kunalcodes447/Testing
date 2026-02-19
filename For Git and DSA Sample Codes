@@ -330,7 +330,6 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-
 Problem 10
 Problem Statement -
 Given an array, compute the total sum of its elements
@@ -358,6 +357,31 @@ Final Space Complexity - O(1) (constant space)
 
 
 
+Problem 10
+Problem Statement -
+Given an array, count how many elements are negative
+Solution -
+
+public class CountNegative {
+
+    public static int countNeg(int[] arr) {
+
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] < 0) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+}
+
+
+Final Time Complexity - O(n)
+Final Space Complexity - O(1) (constant space)
 
 
 
