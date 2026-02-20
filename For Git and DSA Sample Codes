@@ -386,3 +386,54 @@ Final Space Complexity - O(1) (constant space)
 
 
 
+
+Problem 11
+Problem Statement -
+Given an array, find the second largest element without using built-in sorting or functions
+Solution -
+
+public class SecondLargest {
+
+    public static int findSecondLargest(int[] arr) {
+
+        int largest = arr[0];
+        int second = -1;
+
+        for (int i = 1; i < arr.length; i++) {
+
+            if (arr[i] > largest) {
+                second = largest;
+                largest = arr[i];
+            }
+            else if (arr[i] > second && arr[i] != largest) {
+                second = arr[i];
+            }
+        }
+
+        return second;
+    }
+}
+
+
+Final Time Complexity - O(n)
+Final Space Complexity - O(1) (constant space)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
