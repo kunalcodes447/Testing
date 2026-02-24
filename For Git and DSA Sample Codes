@@ -22,6 +22,7 @@ return min;
 * Final Space Complexity - O(1) (constant space)
 
 
+
 Problem 2
 Problem Statement - 
 Find the sum of all elements in an array
@@ -85,7 +86,7 @@ public class checkSorted {
 
 
 
-Problem 4
+Problem 5
 Problem Statement -
 Given an integer array, find the second largest element
 Solution -
@@ -137,7 +138,7 @@ public class SecondLargest {
 
 
 
-Problem 4
+Problem 6
 Problem Statement -
 Given an array, reverse it without using extra arrays
 Solution -
@@ -179,7 +180,7 @@ public class ReverseArray {
 
 
 
-Problem 5
+Problem 7
 Problem Statement -
 Given an array, determine whether it is sorted in non-decreasing order.
 Solution -
@@ -206,7 +207,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 6
+Problem 8
 Problem Statement -
 Given an array and a number target, count how many times it appears
 Solution -
@@ -235,7 +236,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 7
+Problem 9
 Problem Statement -
 Given an array, find the largest value
 Solution -
@@ -265,7 +266,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 8
+Problem 10
 Problem Statement -
 Given an array and a target value, return the index where it appears
 Solution -
@@ -293,7 +294,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 9
+Problem 11
 Problem Statement -
 Given an array, count how many numbers are:
 Even
@@ -329,7 +330,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 10
+Problem 12
 Problem Statement -
 Given an array, compute the total sum of its elements
 Solution -
@@ -356,7 +357,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 10
+Problem 13
 Problem Statement -
 Given an array, count how many elements are negative
 Solution -
@@ -386,7 +387,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
-Problem 11
+Problem 14
 Problem Statement -
 Given an array, find the second largest element without using built-in sorting or functions
 Solution -
