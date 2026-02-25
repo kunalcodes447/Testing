@@ -23,6 +23,7 @@ return min;
 
 
 
+
 Problem 2
 Problem Statement - 
 Find the sum of all elements in an array
@@ -58,6 +59,7 @@ System.out.println(max);
 
 
 
+
 Problem 4
 Problem Statement -
 Given an integer array arr, determine whether the array is sorted in non-decreasing order
@@ -83,6 +85,7 @@ public class checkSorted {
 
 * Final Time Complexity - O(n)
 * Final Space Complexity - O(1) (constant space)
+
 
 
 
@@ -138,6 +141,7 @@ public class SecondLargest {
 
 
 
+
 Problem 6
 Problem Statement -
 Given an array, reverse it without using extra arrays
@@ -180,6 +184,7 @@ public class ReverseArray {
 
 
 
+
 Problem 7
 Problem Statement -
 Given an array, determine whether it is sorted in non-decreasing order.
@@ -203,6 +208,7 @@ public class CheckSorted {
 
 Final Time Complexity - O(n)
 Final Space Complexity - O(1) (constant space)
+
 
 
 
@@ -236,6 +242,7 @@ Final Space Complexity - O(1) (constant space)
 
 
 
+
 Problem 9
 Problem Statement -
 Given an array, find the largest value
@@ -261,6 +268,7 @@ public class LargestElement {
 
 Final Time Complexity - O(n)
 Final Space Complexity - O(1) (constant space)
+
 
 
 
@@ -352,6 +360,7 @@ public class SumArray {
 
 Final Time Complexity - O(n)
 Final Space Complexity - O(1) (constant space)
+
 
 
 
